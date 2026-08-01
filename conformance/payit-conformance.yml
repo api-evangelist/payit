@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://payitgov.com/security-and-compliance/
+standards:
+  - id: soc-1-type-2
+    conforms: true
+    evidence: "SOC 1 Type 2 compliant, verified annually by AICPA-certified auditors"
+  - id: soc-2-type-2
+    conforms: true
+    evidence: "SOC 2 Type 1 & Type 2 compliant, verified annually by AICPA-certified auditors"
+  - id: iso-27001
+    conforms: true
+    evidence: "ISO 27001 certified per International Standards Organization audit"
+  - id: iso-27018
+    conforms: true
+    evidence: "ISO 27018 certified for PII protection in the cloud"
+  - id: pci-dss-level-1
+    conforms: true
+    evidence: "PCI DSS Level 1 (highest tier) for processing credit card data"
+  - id: nist-800-series
+    conforms: true
+    evidence: "Information security program designed around the NIST 800-Series frameworks"
+  - id: aws-govcloud
+    conforms: true
+    evidence: "US clients hosted on AWS GovCloud; Canadian clients on AWS Canada Region for public sector"

@@ -1,8 +1,17 @@
 aid: payit
 name: PayIt
-description: 'PayIt is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  PayIt is a customer experience and payments platform for state and local
+  government, founded in 2013 and headquartered in Kansas City, Missouri.
+  Through a unified resident profile that works across departments and
+  jurisdictions, PayIt lets agencies digitize transactions, reduce manual
+  work, and accelerate revenue collection. Its solutions span property tax,
+  courts/tickets and fines, utilities, licensing and permitting, driver and
+  vehicle services, identity and insurance verification, outdoor recreation
+  licensing, and tolling, backed by AI-powered features (Smart Works, Smart
+  Reconcile, Agent Assistant, Smart Guide). The platform serves over 150
+  million residents across North America and is backed by Insight Partners.
+  PayIt does not publish a public developer API or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/payit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Government
+- GovTech
+- Payments
+- Digital Government
+- Public Sector
+- Citizen Experience
+- DMV
+image: https://payitgov.com/wp-content/uploads/2023/10/PayIt.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.payitgov.com/
+- type: Blog
+  url: https://payitgov.com/blog/
+- type: Support
+  url: https://payitgov.com/support/
+- type: Pricing
+  url: https://payitgov.com/pricing/
+- type: SignUp
+  url: https://payitgov.com/request-a-demo/
+- type: TermsOfService
+  url: https://payitgov.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://payitgov.com/privacy-policy/
+- type: Conformance
+  url: conformance/payit-conformance.yml
+- type: Compliance
+  url: https://payitgov.com/security-and-compliance/
+- type: TrustCenter
+  url: security/payit-trust-center.yml
+- type: DomainSecurity
+  url: security/payit-domain-security.yml
+- type: LLMsTxt
+  url: llms/payit-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
